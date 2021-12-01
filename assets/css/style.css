@@ -20,18 +20,13 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 0px;
+    padding: 10px 0px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: white;
     z-index: 100;
-    /* background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,0.8) 0%, rgba(156,193,237,1) 100%);
-    background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(217,231,248,0.8) 0%, rgba(156,193,237,1) 100%); */
-    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 1) 100%); */
     overflow-x: hidden !important;
 }
 ul{
@@ -41,10 +36,18 @@ ul{
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo p{
+    position: relative;
+    top: 3px;
+    left: 15px;
 }
 .logo img{
-    height: 50px;
+    height: 70px;
 }
 .nav-elements ul{
     display: flex;
@@ -600,11 +603,23 @@ footer{
     nav{
         padding: 10px 0;
     }
+    .logo{
+        position: relative;
+        left: -15px;
+    }
+    .logo img{
+        height: 45px;
+    }
+    .logo p{
+        font-size: 20px;
+        left: 10px;
+    }
     .nav-toggle{
         display: block;
         font-size: 20px;
     }
     .section1{
+        margin-top: 15px;
         background-size: contain;
         background-position: bottom;
         padding: 10% 8%;
