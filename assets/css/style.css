@@ -312,6 +312,7 @@ ul{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 70px auto;
     column-gap: 20px;
+    overflow-y: hidden;
 }
 .country-card{
     display: flex;
