@@ -313,6 +313,7 @@ ul{
     margin: 70px auto;
     column-gap: 20px;
     overflow-y: hidden;
+    padding: 20px 0;
 }
 .country-card{
     display: flex;
@@ -325,6 +326,7 @@ ul{
     margin: 0 auto;
     transition: 0.4s;
     cursor: default;
+    z-index: 99;
 }
 .country-card:hover{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
@@ -356,6 +358,7 @@ ul{
     font-weight: 700;
     font-size: 16px;
     margin: 0 15px;
+    width: 70%;
     padding: 13px 0;
 }
 .cities{
